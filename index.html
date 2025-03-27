@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Personal Portfolio Page</title>
+  <title>Tiffany Du | Designer &amp; Front-End Developer</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Unica+One%7CWork+Sans:300,600" rel="stylesheet"><link rel="stylesheet" href="https://public.codepenassets.com/css/normalize-5.0.0.min.css">
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<body data-spy="scroll" data-target="#main-nav" data-offset="60">
+  <!-- Fixed Navbar -->
+  <nav id="main-nav" class="navbar navbar-default ">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <!-- Menu Toggle -->
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="glyphicon glyphicon-menu-hamburger"></span>
+        </button>
+        <a class="navbar-brand scroll" href="#top"><img class="pull-left logo" src="HTP_logo.png" alt="HTP Logo"><span>Hack the Peach</span></a>
+      </div>
+      <!-- Collapsible Menu -->
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active"><a class="scroll" href="#top">Home <span class="sr-only">(current)</span></a></li>
+          <li><a class="scroll" href="#about">About Me</a></li>
+          <li><a onclick="window.open('mailto:hello@hackthepeach.com');">Email us</a></li>
+          <li><button class="btn td-btn small outline pink" onclick="window.open('https:register.hackthepeach.com');">Contact</button></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+  <!-- Jumbotron -->
+  <header id="top" class="jumbotron">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-xs-6 col-xs-offset-3">
+          <img class="img-responsive center-block logo" src="HTP_logo.png" alt="TD Logo">
+        </div>
+        <div class="col-xs-12">
+          <h1 class="title">Hack the Peach</h1>
+          <p>24 hours, 80 highschoolers</p>
+          <p>We hope to see you there</p>
+          <a class="btn td-btn outline green scroll mt-30" href="#content" title="Learn more about me!"><span class="glyphicon glyphicon-triangle-bottom"></span> Learn more</a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- Main Content Begins -->
+  <div id="content" class="container-fluid text-center">
+    <!-- About Me Section -->
+    <section id="about" class="row bg-white bg-shadow">
+      <div class="row">
+        <div class="col-xs-12">
+          <h1 class="mb-30">Who are we?</h1>
+        </div>
+      </div>
+      <div class="row mb-30">
+        <div class="col-xs-12 col-md-3 col-md-offset-1 col-lg-2 col-lg-offset-2">
+          <img class="img-responsive center-block profile mb-30" src="https://media0.giphy.com/media/G79R6KJRGJyYmMEiG2/200w.gif?cid=6c09b952e5dnn969b6v09b50w6zrth0p7uqsxr6w0ijbb47h&ep=v1_gifs_search&rid=200w.gif&ct=g" alt="hackathons photo">
+        </div>
+        <div class="col-sm-8 col-sm-offset-2 col-md-7 col-md-offset-0 col-lg-6 text-left">
+          <h4>hack the Peach is a 24 hour hackathon welcoming all high school students, regardless of skill level</h4>
+					<p>But why attend a hackathon? Hackathons foster innovation, collaboration, and skill development by providing a fast-paced, practical environment for individuals to tackle real-world problems and learn new technologies, ultimately boosting both personal and professional growth</p>
+          <p>Knowing how to code is a valuable skills in today's world. Whether you have completed various projects before or have naver typed a line of code, <b>Hack the Peach</b> will help you foster and develop these skills.</p> Interested?<a href="register.hackthepeach.com">#RegisterHere</a> and <a class="scroll" href="#follow-me">follow us!</a> :)</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-10 col-sm-offset-1">
+        <hr class="dashed">
+          <h2 class="mb-60">FAQ</h2>
+        </div>
+        <div class="col-sm-3 col-lg-2 col-lg-offset-2">
+          <h3>How much does it cost?</h3>
+          <p>Hack the Peach is completely free. Food, drinks, workshops, prizes, and a place to sleep are all provided by us.</p>
+        </div>
+        <div class="col-sm-3 col-lg-2">
+          <h3>Who is this organized by?</h3>
+          <p>Hack the Peach is organizied by local high school students but sponsored by the global non-profit Hack Club. The event while led by the organizers, will be supervised by adult chaperones. </p>
+        </div>
+        <div class="col-sm-3 col-lg-2">
+          <h3>What will we do?</h3>
+          <p>During the 24 hours of hackathon participants will form teams of 3-4 to create a project according to the theme, which will be announced during the opening ceremony. </p>
+        </div>
+        <div class="col-sm-3 col-lg-2 mb-30">
+					<h3>What should I bring?</h3>
+          <p>We ask that you bring yourself, a sleeping bag, a laptop, and anything else you may need for the event... and most importantly: a good spirit!</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+          
+        </div>
+      </div>
+    </section>
+   
+    <!-- Register Section -->
+    <section class="row bg-pink bg-shadow">
+      <div class="col-xs-12">
+        <h1 class="mb-30">Like what you see?</h1>
+        <button class="btn btn-default td-btn outline white" onclick="window.open('https:register.hackthepeach.com');">Register Now!</button>
+      </div>
+    </section>
+	    <!-- Contact Me Section -->
+    <section class="row bg-pink bg-shadow">
+      <div class="col-xs-12">
+        <h1 class="mb-30">Have Any Inquiries?</h1>
+        <button class="btn btn-default td-btn outline white" onclick="window.open('mailto:hello@hackthepeach.com');">Send us an email!</button>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="row text-left bg-honeycomb">
+      <div class="col-xs-12 col-sm-6">
+        <h3>You've reached the end!</h3>
+        <div class="card mb-30">
+          <img src="https://png.pngtree.com/png-vector/20240904/ourmid/pngtree-fresh-peach-fruit-isolated-on-transparent-background-png-image_13751745.png">
+          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        </div>
+      </div>
+      <div id="follow-me" class="col-xs-12 col-sm-5 col-sm-offset-1 mb-30">
+        <h3>Follow us!</h3>
+        <a class="social" href="https://www.instagram.com/hackthepeach?igsh=amhwd3I4ejgxMndh&utm_source=qr" target="_blank" title="Instagram">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Instagram-Icon.png/1024px-Instagram-Icon.png">
+        </a>
+       
+      <div class="col-xs-12 text-center">
+        <hr class="dashed">
+        <h2>&ndash; Thanks for visiting! &ndash;</h2>
+
+      </div>
+    </footer>
+  </div>
+
+  
+</body>
+<!-- partial -->
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
